@@ -1,0 +1,79 @@
+\documentclass[12pt]{article}
+
+
+% Math		****************************************************************************************
+\usepackage{fancyhdr} 
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{dsfont}
+
+% Macros	****************************************************************************************
+\usepackage{calc}
+
+% Commands and Custom Variables	********************************************************************
+\newcommand{\problem}[1]{\hspace{-4 ex} \large \textbf{#1}\\}
+\let\oldemptyset\emptyset
+\let\emptyset\varnothing
+
+%page		****************************************************************************************
+\usepackage[margin=1in]{geometry}
+\usepackage{setspace}
+\doublespacing
+\pagestyle{fancy}
+\fancyhf{}
+\rhead{Shaw \space \thepage}
+\setlength\parindent{0pt}
+
+%Code		****************************************************************************************
+\usepackage{listings}
+\usepackage{courier}
+\lstset{
+	language=Python,
+	showstringspaces=false,
+	formfeed=newpage,
+	tabsize=4,
+	commentstyle=\itshape,
+	basicstyle=\ttfamily,
+}
+
+%Images		****************************************************************************************
+\usepackage{graphicx}
+\graphicspath{ {images/} }
+
+%Hyperlinks	****************************************************************************************
+%\usepackage{hyperref}
+%\hypersetup{
+%	colorlinks=true,
+%	linkcolor=blue,
+%	filecolor=magenta,      
+%	urlcolor=cyan,
+%}
+
+
+\begin{document}
+	\thispagestyle{empty}
+	
+	\begin{flushright}
+		Sage Shaw \\
+		m5XX - Fall 2017 \\
+		\today
+	\end{flushright}
+	
+{\large \textbf{HW XXXX}}\bigbreak
+
+%problem 3.2
+\hspace{-4 ex}\textbf{3.2} Show that  \bigbreak
+\problem{3.2}\\
+
+
+My test is length {\widthof{test}}
+
+
+\reverseconcat{A}{B}{C}
+
+	\begin{proof}\text{ }\\
+		
+	\end{proof}
+
+\end{document}
