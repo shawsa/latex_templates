@@ -5,6 +5,7 @@
 \usepackage{fancyhdr} 
 \usepackage{amsfonts}
 \usepackage{amsmath}
+\usepackage{amssymb}
 \usepackage{amsthm}
 \usepackage{dsfont}
 
@@ -21,6 +22,7 @@
 \usepackage[margin=1in]{geometry}
 \usepackage{setspace}
 \doublespacing
+\allowdisplaybreaks
 \pagestyle{fancy}
 \fancyhf{}
 \rhead{Shaw \space \thepage}
@@ -41,6 +43,10 @@
 %Images		****************************************************************************************
 \usepackage{graphicx}
 \graphicspath{ {images/} }
+
+%tikz
+\usepackage[utf8]{inputenc}
+\usepackage{pgfplots}
 
 %Hyperlinks	****************************************************************************************
 %\usepackage{hyperref}
@@ -63,18 +69,5 @@
 	
 {\large \textbf{HW XXXX}}\bigbreak
 
-%problem 3.2
-\hspace{-4 ex}\textbf{3.2} Show that  \bigbreak
-\problem{3.2}\\
-
-
-My test is length {\widthof{test}}
-
-
-\reverseconcat{A}{B}{C}
-
-	\begin{proof}\text{ }\\
-		
-	\end{proof}
 
 \end{document}
